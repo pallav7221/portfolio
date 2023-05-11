@@ -20,7 +20,7 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>Around 6 months</small>
+              <small>10 months</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -28,7 +28,13 @@ const Intro = () => {
               <small>40+ Completed Assignments</small>
             </article>
           </div>
-          <p>I’ve spent the last several months in a remote environment, working with <b>HTML, CSS, JavaScript, React, Redux </b> etc. building everything from landing pages to APIs under the guidence of <b>MASAI SCHOOL</b> .</p>
+          {/* <p>I’ve spent the last several months in a remote environment, working with <b>HTML, CSS, JavaScript, React, Redux </b> etc. building everything from landing pages to APIs under the guidence of <b>MASAI SCHOOL</b> .</p> */}
+          <p>Passionate full-stack engineer with experience in
+            developing applications using a wide range of front-end and back-end tools like React, JavaScript,
+            Typescript, Node JS, Express JS, postgreSQL, MongoDB,
+            HTML, CSS.
+            <br/> I am a quick learner and a team player who
+            is passionate about writing clean and efficient code.</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>

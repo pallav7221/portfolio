@@ -1,8 +1,8 @@
-.experience__container {
+/* .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-}
+} */
 
 .experience__container > div {
     background: var(--color-bg-variant);
@@ -12,6 +12,10 @@
     transition: var(--transition);
 }
 
+.experience__container p {
+    margin: 1rem 0 1rem;
+    color: var(--color-light);
+}
 .experience__container > div:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
@@ -26,8 +30,8 @@
 
 .experience__content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 1rem;
 }
 
 .experience__details {
@@ -47,14 +51,13 @@
     }
 
     .experience__container > div {
-        width: 80%;
-        margin: 0 auto;
+        margin: 2rem auto;
         padding: 2rem;
     }
 
-    .experience__content p {
+    /* .experience__content p {
         padding: 1rem;
-    }
+    } */
 }
   
 @media screen and (max-width: 600px){
@@ -65,5 +68,7 @@
     .experience__container > div {
         width: 100%;
         padding: 2rem 1rem;
+        margin: 2rem auto;
     }
+   
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import IMG1 from '../../assets/lumen5.png';
-import IMG2 from "../../assets/Banggood.png"
+import IMG2 from "../../assets/Banggood.png";
+import IMG3 from "../../assets/medium_clone.png"
 
 
 import './portfolio.css';
@@ -9,6 +10,17 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
+      title: 'Medium Clone',
+      img: IMG3,
+      des:"Here you can Read Blogs, Create Blogs, Follow other Creators, Like Blogs, and vice versa as well.",
+      type:"A MERN Stack Web App.",
+      team:" A collaborative project built by 5 Developers within 7 days.",
+      teckStack:"React | NodeJs | ExpressJs | MongoDB | Chakra-Ui",
+      link: 'https://medium-web-app.netlify.app/',
+      github: 'https://github.com/pallav7221/Medium-Clone',
+    },
+    {
+      id: 2,
       title: 'Banggood Clone',
       img: IMG2,
       des:"Banggood is a global leading online shop, offering millions of products that are well-selected. From consumer electronics, tools, home, toys, sports, to clothing, everything could be delivered.",
@@ -18,7 +30,7 @@ const Portfolio = () => {
       github: 'https://github.com/Jasmine-Shaikh/Banggood-Clone/tree/main/banggood-clone',
     },
     {
-      id: 2,
+      id: 3,
       title: 'Lumen5 video maker Clone',
       des:"Lumen5 is a video creation platform that enables anyone without training or experience to easily create engaging video content within 5 minute.",
       img: IMG1,
@@ -45,7 +57,7 @@ const Portfolio = () => {
           </div>
           
             <p>{pro.des}</p>
-          
+            <p>{pro?.type}</p>
             <p>{pro.team}</p>
         
             <p>{pro.teckStack}</p>
